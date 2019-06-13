@@ -26,6 +26,9 @@ module.exports = {
         experimentalImportSupport: false,
         inlineRequires: false,
       },
+      transformer: {
+        babelTransformerPath: require.resolve('react-native-typescript-transformer'),
+    }
     }),
   },
 }

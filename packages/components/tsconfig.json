@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es5", 
+        "composite": true,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "isolatedModules": false,
+        "experimentalDecorators": true,
+        "esModuleInterop":true,
+        "jsx": "preserve",
+        "outDir": "dist",
+        "rootDir": "src"
+    }
+}
